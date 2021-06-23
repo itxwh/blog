@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git 命令大全 | Xiewh’s Blog</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/logo.png">
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3d52586f71b748615341de04290311c6";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();</script>
+    <meta name="description" content="欢迎访问 Xiewh’s Blog">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="keywords" content="xiewh,博客,blog,php,go,golang">
+    <meta name="baidu-site-verification" content="code-ts2gr50PnF">
+    
+    <link rel="preload" href="/assets/css/0.styles.cf42c520.css" as="style"><link rel="preload" href="/assets/js/app.8273ef65.js" as="script"><link rel="preload" href="/assets/js/3.61216f1d.js" as="script"><link rel="preload" href="/assets/js/1.d8658f05.js" as="script"><link rel="preload" href="/assets/js/12.e568bebb.js" as="script"><link rel="prefetch" href="/assets/js/10.64f76524.js"><link rel="prefetch" href="/assets/js/11.07e19ea2.js"><link rel="prefetch" href="/assets/js/13.b7ef2cac.js"><link rel="prefetch" href="/assets/js/14.ec752f39.js"><link rel="prefetch" href="/assets/js/15.7fbf2828.js"><link rel="prefetch" href="/assets/js/16.3e375c56.js"><link rel="prefetch" href="/assets/js/17.049eef7e.js"><link rel="prefetch" href="/assets/js/18.006c732d.js"><link rel="prefetch" href="/assets/js/4.3f3acb27.js"><link rel="prefetch" href="/assets/js/5.c5b8db47.js"><link rel="prefetch" href="/assets/js/6.c233d89d.js"><link rel="prefetch" href="/assets/js/7.20aa3d34.js"><link rel="prefetch" href="/assets/js/8.77ad23b4.js"><link rel="prefetch" href="/assets/js/9.b662087a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cf42c520.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-1156296a><div data-v-1156296a><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-1156296a data-v-1156296a><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-4e82dffc data-v-1156296a data-v-1156296a><h3 class="title" data-v-4e82dffc data-v-4e82dffc>Xiewh’s Blog</h3> <p class="description" data-v-4e82dffc data-v-4e82dffc>欢迎访问 Xiewh’s Blog</p> <label id="box" class="inputBox" data-v-4e82dffc data-v-4e82dffc><input type="password" value="" data-v-4e82dffc> <span data-v-4e82dffc>Konck! Knock!</span> <button data-v-4e82dffc>OK</button></label> <div class="footer" data-v-4e82dffc data-v-4e82dffc><span data-v-4e82dffc><i class="iconfont reco-theme" data-v-4e82dffc></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4e82dffc>vuePress-theme-reco</a></span> <span data-v-4e82dffc><i class="iconfont reco-copyright" data-v-4e82dffc></i> <a data-v-4e82dffc><span data-v-4e82dffc>xiewh</span>
+            
+          <span data-v-4e82dffc>2020 - </span>
+          2021
+        </a></span></div></div> <div class="hide" data-v-1156296a><header class="navbar" data-v-1156296a><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="Xiewh’s Blog" class="logo"> <span class="site-name">Xiewh’s Blog</span></a> <div class="links"><!----> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/http/" class="nav-link"><i class="undefined"></i>
+  http
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MySql/" class="nav-link"><i class="undefined"></i>
+  MySql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Xtrabackup/" class="nav-link"><i class="undefined"></i>
+  Xtrabackup
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nginx/" class="nav-link"><i class="undefined"></i>
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/categories/PHP/" class="nav-link"><i class="undefined"></i>
+  PHP
+</a></li><li class="dropdown-item"><!----> <a href="/categories/PHP-FPM/" class="nav-link"><i class="undefined"></i>
+  PHP-FPM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Redis/" class="nav-link"><i class="undefined"></i>
+  Redis
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1156296a></div> <aside class="sidebar" data-v-1156296a><div class="personal-info-wrapper" data-v-828910c6 data-v-1156296a><img src="/logo.png" alt="author-avatar" class="personal-img" data-v-828910c6> <h3 class="name" data-v-828910c6>
+    xiewh
+  </h3> <div class="num" data-v-828910c6><div data-v-828910c6><h3 data-v-828910c6>7</h3> <h6 data-v-828910c6>文章</h6></div> <div data-v-828910c6><h3 data-v-828910c6>8</h3> <h6 data-v-828910c6>标签</h6></div></div> <ul class="social-links" data-v-828910c6><li class="social-item" data-v-828910c6><i class="iconfont reco-github" style="color:#fb9b5f;" data-v-828910c6></i></li></ul> <hr data-v-828910c6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/http/" class="nav-link"><i class="undefined"></i>
+  http
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MySql/" class="nav-link"><i class="undefined"></i>
+  MySql
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Xtrabackup/" class="nav-link"><i class="undefined"></i>
+  Xtrabackup
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nginx/" class="nav-link"><i class="undefined"></i>
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/categories/PHP/" class="nav-link"><i class="undefined"></i>
+  PHP
+</a></li><li class="dropdown-item"><!----> <a href="/categories/PHP-FPM/" class="nav-link"><i class="undefined"></i>
+  PHP-FPM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Redis/" class="nav-link"><i class="undefined"></i>
+  Redis
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/about/" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-4e82dffc data-v-1156296a><h3 class="title" data-v-4e82dffc data-v-4e82dffc>Git 命令大全</h3> <!----> <label id="box" class="inputBox" data-v-4e82dffc data-v-4e82dffc><input type="password" value="" data-v-4e82dffc> <span data-v-4e82dffc>Konck! Knock!</span> <button data-v-4e82dffc>OK</button></label> <div class="footer" data-v-4e82dffc data-v-4e82dffc><span data-v-4e82dffc><i class="iconfont reco-theme" data-v-4e82dffc></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-4e82dffc>vuePress-theme-reco</a></span> <span data-v-4e82dffc><i class="iconfont reco-copyright" data-v-4e82dffc></i> <a data-v-4e82dffc><span data-v-4e82dffc>xiewh</span>
+            
+          <span data-v-4e82dffc>2020 - </span>
+          2021
+        </a></span></div></div> <div data-v-1156296a><main class="page"><section><div class="page-title"><h1 class="title">Git 命令大全</h1> <div data-v-1ff7123e><i class="iconfont reco-account" data-v-1ff7123e><span data-v-1ff7123e>xiewh</span></i> <i class="iconfont reco-date" data-v-1ff7123e><span data-v-1ff7123e>2021/6/23</span></i> <i class="iconfont reco-eye" data-v-1ff7123e><span id="/git/git.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-1ff7123e><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-1ff7123e><span class="tag-item" data-v-1ff7123e>Git</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="配置命令"><a href="#配置命令" class="header-anchor">#</a> 配置命令</h2> <ul><li>列出当前配置：git config --list</li> <li>列出 Repository 配置：git config --local --list</li> <li>列出全局配置：git config --global --list</li> <li>列出系统配置：git config --system --list</li> <li>配置用户名：git config --global user.name &quot;your name&quot;</li> <li>配置用户邮箱：git config --global user.email &quot;your email&quot;</li></ul> <h2 id="分支管理"><a href="#分支管理" class="header-anchor">#</a> 分支管理</h2> <ul><li>查看本地分支：git branch</li> <li>查看远程分支：git branch -r</li> <li>查看本地分支和远程分支：git branch -a</li> <li>从当前分支，切换到其他分支：git checkout <branch-name></branch-name></li> <li>创建并切换到新分支：git checkout -b <branch-name></branch-name></li> <li>删除分支：git branch -d <branch-name></branch-name></li> <li>当前分支与指定分支合并：git merge <branch-name></branch-name></li> <li>查看哪些分支已合并到当前分支：git branch --marged</li> <li>插卡哪些分支没有合并到当前分支：git branch --no-merged</li> <li>查看各个分支最后一个提交对象的信息：git branch -v</li> <li>删除远程分支：git push origin --d <branch-name></branch-name></li> <li>重命名分支：git branch -m <oldbranch-name><newbranch-name></newbranch-name></oldbranch-name></li> <li>拉取远程分支并创建本地分支：git checkout -b 本地分支名 x origin/远程分支名 x</li></ul> <h2 id="fetch-指令"><a href="#fetch-指令" class="header-anchor">#</a> fetch 指令</h2> <ul><li>将某个远程主机的更新，全部取回本地：git fetch &lt;远程主机名称&gt;</li> <li>取回特定分支：git fetch &lt;远程主机名称&gt; &lt;分支名&gt;</li> <li>取回特定分支，并拉取到本地分支：git fetch origin <branch-name>:<local-name></local-name></branch-name></li></ul> <h2 id="文件暂存"><a href="#文件暂存" class="header-anchor">#</a> 文件暂存</h2> <ul><li>添加改动到 stash：git stash save -a &quot;message&quot;</li> <li>删除暂存：git stash drop &lt;stash@{ID}&gt;</li> <li>查看 stash 列表：git stash list</li> <li>删除全部缓存：gitstash clear</li> <li>恢复改动：git stash pop &lt;stash@{ID}&gt;</li></ul> <h2 id="花式撤销"><a href="#花式撤销" class="header-anchor">#</a> 花式撤销</h2> <ul><li>撤销工作区修改：git checkout -- <file></file></li> <li>暂存区文件撤销（不覆盖工作区）：git rest HEAD <file></file></li> <li>版本回退：git rest --(soft | mixed |hard) &lt;HEAD ~(num)&gt; | <commit ID=""><ul><li>--hard：回退全部，包含 HEAD，index，working tree</li> <li>--mixed：回退部分，包括 HEAD，index</li> <li>--soft：只回退 HEAD</li></ul></commit></li></ul> <h2 id="文档查询"><a href="#文档查询" class="header-anchor">#</a> 文档查询</h2> <ul><li>展示 Git 命令大全：git help (--help)</li> <li>展示 Git 命令大纲全部列表：git help -a</li> <li>展示具体命令说明手册：git help <command></command></li></ul> <h2 id="分支管理规范"><a href="#分支管理规范" class="header-anchor">#</a> 分支管理规范</h2> <h4 id="master-分支"><a href="#master-分支" class="header-anchor">#</a> master 分支</h4> <ul><li>主分支，用户部署生产环境的分支，确保稳定</li> <li>maser 分支一般由 develop 以及 hotfix分支合并，任何情况下都不能直接修改代码</li></ul> <h4 id="develop-分支"><a href="#develop-分支" class="header-anchor">#</a> develop 分支</h4> <ul><li>develop 为开发分支，通常情况下，保存最新完成以及 bug 修复后的代码</li> <li>开发新功能时，feature 分支都是基于 develop 分支下创建的</li></ul> <h4 id="feature-分支"><a href="#feature-分支" class="header-anchor">#</a> feature 分支</h4> <ul><li>开发功能，基于 develop 为基础创建 feature 分支</li> <li>分支命令：feature/开头的为腾讯分支，命令规则：feature/user_module、feature/cart_module</li></ul> <h4 id="release-分支"><a href="#release-分支" class="header-anchor">#</a> release 分支</h4> <ul><li>release 为预上线分支，发布提测阶段，会 release 分支代码为基准提测</li></ul> <h4 id="hotfix-分支"><a href="#hotfix-分支" class="header-anchor">#</a> hotfix 分支</h4> <ul><li>线上出现紧急问题时，需要及时修复，以 master 分支为基线，创建 hotfix 分支，修复完成后，需要合并到 master 分支和 develop 分支。</li></ul> <h2 id="差异比较"><a href="#差异比较" class="header-anchor">#</a> 差异比较</h2> <ul><li>比较工作区与缓存区：git diff</li> <li>比较缓存区与本地库最近一次 commit 内容：git diff --cached</li> <li>比较工作区与本地最近一次 commit 内容：git diff HEAD</li> <li>比较两个 commit 之间差异：git diff <commit ID=""><commit ID=""></commit></commit></li></ul> <h4 id="基本概念"><a href="#基本概念" class="header-anchor">#</a> 基本概念</h4> <ul><li>版本库.git 文件：当我们使用 git 管理文件时，一般它会多出一个.git 文件，我们将此称之为版本库</li> <li>工作区：本地项目存放文件的位置
+暂存区：顾名思义就是暂时存放文件的地方，通过 add 命令将工作区的文件添加到缓存区</li> <li>本地仓库：通常情况下，我们使用 commit 命令可以将暂存区的文件添加到本地仓库</li> <li>远程仓库：举个例子，当我们使用 GitHub 托管我们项目时，它就是一个远程仓库</li></ul> <h2 id="git-文件状态"><a href="#git-文件状态" class="header-anchor">#</a> Git 文件状态</h2> <p>通过命令 git status 查看文件状态</p> <ul><li>untracked：在暂存区没有该文件</li> <li>modified：被修改的文件</li> <li>staged：使用 git add 暂存的文件</li></ul></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-70334359><li class="level-2" data-v-70334359><a href="/git/git.html#配置命令" class="sidebar-link reco-side-配置命令" data-v-70334359>配置命令</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#分支管理" class="sidebar-link reco-side-分支管理" data-v-70334359>分支管理</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#fetch-指令" class="sidebar-link reco-side-fetch-指令" data-v-70334359>fetch 指令</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#文件暂存" class="sidebar-link reco-side-文件暂存" data-v-70334359>文件暂存</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#花式撤销" class="sidebar-link reco-side-花式撤销" data-v-70334359>花式撤销</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#文档查询" class="sidebar-link reco-side-文档查询" data-v-70334359>文档查询</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#分支管理规范" class="sidebar-link reco-side-分支管理规范" data-v-70334359>分支管理规范</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#差异比较" class="sidebar-link reco-side-差异比较" data-v-70334359>差异比较</a></li><li class="level-2" data-v-70334359><a href="/git/git.html#git-文件状态" class="sidebar-link reco-side-git-文件状态" data-v-70334359>Git 文件状态</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="left:68px;bottom:190px;display:none;" data-v-5775ee02>
+      欢迎来到 Xiewh’s Blog
+    </div> <div class="operation" style="left:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="left:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div><div id="goTop" class="hide-cat" data-v-bf92849a></div><div class="Sakura" data-v-017cf06a><canvas id="canvas_sakura" style="z-index:-1;" data-v-017cf06a></canvas></div><!----><canvas id="vuepress-canvas-cursor"></canvas></div></div>
+    <script src="/assets/js/app.8273ef65.js" defer></script><script src="/assets/js/3.61216f1d.js" defer></script><script src="/assets/js/1.d8658f05.js" defer></script><script src="/assets/js/12.e568bebb.js" defer></script>
+  </body>
+</html>
