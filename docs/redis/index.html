@@ -6,12 +6,20 @@
     <title>Redis 5种数据结构及对应使用场景 | xiewh blog</title>
     <meta name="generator" content="VuePress 1.8.2">
     <link rel="icon" href="/logo.png">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?01qeRWzH039bNC3F";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();</script>
     <meta name="description" content="xiewh blog">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <meta name="keywords" content="xiewh,博客,blog,php,go,golang">
     <meta name="baidu-site-verification" content="code-ts2gr50PnF">
     
-    <link rel="preload" href="/assets/css/0.styles.0ea89e9c.css" as="style"><link rel="preload" href="/assets/js/app.1e706e27.js" as="script"><link rel="preload" href="/assets/js/3.025256c6.js" as="script"><link rel="preload" href="/assets/js/1.7340d430.js" as="script"><link rel="preload" href="/assets/js/12.dea201ac.js" as="script"><link rel="prefetch" href="/assets/js/10.b8b39c90.js"><link rel="prefetch" href="/assets/js/11.41097139.js"><link rel="prefetch" href="/assets/js/4.f25de82e.js"><link rel="prefetch" href="/assets/js/5.8a8eafcc.js"><link rel="prefetch" href="/assets/js/6.824dbf32.js"><link rel="prefetch" href="/assets/js/7.9bbf7431.js"><link rel="prefetch" href="/assets/js/8.6929e27a.js"><link rel="prefetch" href="/assets/js/9.485f28b4.js">
+    <link rel="preload" href="/assets/css/0.styles.0ea89e9c.css" as="style"><link rel="preload" href="/assets/js/app.46511fc9.js" as="script"><link rel="preload" href="/assets/js/3.025256c6.js" as="script"><link rel="preload" href="/assets/js/1.7340d430.js" as="script"><link rel="preload" href="/assets/js/12.dea201ac.js" as="script"><link rel="prefetch" href="/assets/js/10.b8b39c90.js"><link rel="prefetch" href="/assets/js/11.41097139.js"><link rel="prefetch" href="/assets/js/4.f25de82e.js"><link rel="prefetch" href="/assets/js/5.8a8eafcc.js"><link rel="prefetch" href="/assets/js/6.824dbf32.js"><link rel="prefetch" href="/assets/js/7.9bbf7431.js"><link rel="prefetch" href="/assets/js/8.6929e27a.js"><link rel="prefetch" href="/assets/js/9.485f28b4.js">
     <link rel="stylesheet" href="/assets/css/0.styles.0ea89e9c.css">
   </head>
   <body>
@@ -33,7 +41,7 @@
   关于
 </a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1156296a></div> <aside class="sidebar" data-v-1156296a><div class="personal-info-wrapper" data-v-828910c6 data-v-1156296a><img src="/logo.png" alt="author-avatar" class="personal-img" data-v-828910c6> <h3 class="name" data-v-828910c6>
     xiewh
-  </h3> <div class="num" data-v-828910c6><div data-v-828910c6><h3 data-v-828910c6>1</h3> <h6 data-v-828910c6>文章</h6></div> <div data-v-828910c6><h3 data-v-828910c6>1</h3> <h6 data-v-828910c6>标签</h6></div></div> <ul class="social-links" data-v-828910c6><li class="social-item" data-v-828910c6><i class="iconfont reco-github" style="color:#f8b26a;" data-v-828910c6></i></li></ul> <hr data-v-828910c6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  </h3> <div class="num" data-v-828910c6><div data-v-828910c6><h3 data-v-828910c6>1</h3> <h6 data-v-828910c6>文章</h6></div> <div data-v-828910c6><h3 data-v-828910c6>1</h3> <h6 data-v-828910c6>标签</h6></div></div> <ul class="social-links" data-v-828910c6><li class="social-item" data-v-828910c6><i class="iconfont reco-github" style="color:#f47e60;" data-v-828910c6></i></li></ul> <hr data-v-828910c6></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
   主页
 </a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
       分类
@@ -98,6 +106,6 @@ zscore [key] [value] 获取元素的score
     </div> <div class="operation" style="left:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="left:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
     看板娘
   </div></div><div id="goTop" class="hide-cat" data-v-bf92849a></div><div class="Sakura" data-v-017cf06a><canvas id="canvas_sakura" style="z-index:-1;" data-v-017cf06a></canvas></div><!----></div></div>
-    <script src="/assets/js/app.1e706e27.js" defer></script><script src="/assets/js/3.025256c6.js" defer></script><script src="/assets/js/1.7340d430.js" defer></script><script src="/assets/js/12.dea201ac.js" defer></script>
+    <script src="/assets/js/app.46511fc9.js" defer></script><script src="/assets/js/3.025256c6.js" defer></script><script src="/assets/js/1.7340d430.js" defer></script><script src="/assets/js/12.dea201ac.js" defer></script>
   </body>
 </html>
